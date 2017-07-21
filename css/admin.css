@@ -1,0 +1,211 @@
+/*--------------------------------------------------------------
+Admin Wrapper
+--------------------------------------------------------------*/
+.wpflask-ac-admin-wrapper {
+  padding: 50px;
+  padding: 3.125rem;
+}
+
+.wpflask-ac-admin-wrapper:before, .wpflask-ac-admin-wrapper:after,
+.wpflask-ac-admin-wrapper .section-wrapper:before,
+.wpflask-ac-admin-wrapper .section-wrapper:after,
+.wpflask-ac-admin-wrapper .section-content:before,
+.wpflask-ac-admin-wrapper .section-content:after,
+.wpflask-ac-admin-wrapper .section-content-inside:before,
+.wpflask-ac-admin-wrapper .section-content-inside:after,
+.wpflask-ac-admin-wrapper .section-tabs:before,
+.wpflask-ac-admin-wrapper .section-tabs:after {
+  content: " ";
+  display: table;
+}
+
+.wpflask-ac-admin-wrapper:after,
+.wpflask-ac-admin-wrapper .section-wrapper:after,
+.wpflask-ac-admin-wrapper .section-content:after,
+.wpflask-ac-admin-wrapper .section-content-inside:after,
+.wpflask-ac-admin-wrapper .section-tabs:after {
+  clear: both;
+}
+
+.wpflask-ac-admin-wrapper h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.wpflask-ac-admin-wrapper .settings-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.wpflask-ac-admin-wrapper .settings-wrapper .options-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 68%;
+}
+
+.wpflask-ac-admin-wrapper .settings-wrapper .info-wrapper {
+  margin: 0;
+  padding: 0;
+  width: 30%;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper {
+  margin: 0 0 25px;
+  margin: 0 0 1.5625rem;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper .section-header {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper .section-header .section-header-inside {
+  margin: 0;
+  padding: 25px;
+  padding: 1.5625rem;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper .section-content {
+  background: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  margin: 0;
+  padding: 0;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper .section-content .section-content-inside {
+  margin: 0;
+  padding: 25px;
+  padding: 1.5625rem;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper .section-content .section-content-inside ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper .section-content .section-content-inside ul li {
+  margin: 0 0 15px;
+  margin: 0 0 0.9375rem;
+}
+
+.wpflask-ac-admin-wrapper .section-wrapper .section-content .section-content-inside ul li:last-child {
+  margin: 0;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper {
+  margin: 0;
+  padding: 0;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper input[type="text"] {
+  width: 80%;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper select {
+  width: 35%;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-desc {
+  margin: 8px 0;
+  margin: 0.5rem 0;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-desc:after {
+  content: "";
+  display: block;
+  margin: 12px 0;
+  margin: 0.75rem 0;
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-header {
+  background: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-bottom: none;
+  margin: 0;
+  text-align: right;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-header .section-form-header-inside {
+  margin: 0;
+  padding: 25px;
+  padding: 1.5625rem;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-footer {
+  background: #f9f9f9;
+  border: 1px solid #e1e1e1;
+  border-top: none;
+  margin: 0 0 25px;
+  text-align: right;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-footer .section-form-footer-inside {
+  margin: 0;
+  padding: 25px;
+  padding: 1.5625rem;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs {
+  background: #fff;
+  border: 1px solid #e1e1e1;
+  min-height: 350px;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs .panels {
+  background: #fff;
+  float: left;
+  width: 75%;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs .panels .panel {
+  padding: 25px;
+  padding: 1.5625rem;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs ul {
+  background: #f9f9f9;
+  border-right: 1px solid #e1e1e1;
+  display: block;
+  float: left;
+  min-height: 350px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs ul li {
+  border-bottom: 1px solid #e1e1e1;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs ul li.active {
+  background: #fff;
+  left: 1px;
+  position: relative;
+}
+
+.wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs ul li a, .wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs ul li a:visited, .wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs ul li a:active, .wpflask-ac-admin-wrapper .section-form-wrapper .section-form-tabs ul li a:focus {
+  box-shadow: none;
+  color: #222;
+  display: block;
+  outline: none;
+  padding: 15px 0;
+  padding: 0.9375rem 0;
+  text-decoration: none;
+}
